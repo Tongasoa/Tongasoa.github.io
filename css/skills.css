@@ -1,4 +1,7 @@
 /** body { background: #E9E5E2;margin:2%; }**/
+#SkillBox h5{
+    text-align:center;
+}
 
 #SkillBox {
     /**font-size: 20px;

@@ -1,4 +1,38 @@
+/*-----------custom for icon slide-------------*/
+.svg-container {
+  position: relative;
+  width: 50%;
+  padding-bottom: 50%;
+  vertical-align: middle;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.svg-content {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: fondu 15s ease-in-out infinite both;
+  background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+.svg-content:hover{
+  animation-play-state: paused;
+}
+@keyframes fondu{
+  0%{background-image: url(../images/noun_Basketball.svg);}
+  33.33%{background-image: url(../images/noun_cooking.svg);}
+  66.67%{background-image: url(../images/noun_tabletennis.svg);}
+  100%{background-image: url(../images/noun_WatchingTV.svg);}
+}
+
 /*--- custom gant for formation ---*/
+
 .o-flexy {
   box-sizing: border-box;
   -ms-flex-align: center;
