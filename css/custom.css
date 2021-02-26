@@ -234,14 +234,14 @@
   padding: 4em 0;
   row-gap: 1em;
   /*-ms-grid-columns: (1fr)[1];*/
-  -ms-grid-columns: (1fr);
+  -ms-grid-columns: 1fr;
   grid-template-columns: repeat(1,1fr);
 }
 
 @media (min-width:992px) {
   .c-gant__chart {
     /*-ms-grid-columns: (1fr)[12];*/
-    -ms-grid-columns: (1fr);
+    -ms-grid-columns: 1fr;
     grid-template-columns: repeat(12,1fr);
   }
 }
@@ -531,7 +531,7 @@
     height: 0;
     width: 0;
     position: absolute;
-    pointer-events: none; }
+    /*pointer-events: none;*/ }
   .popover-item:first-child .popover-link:after {
     border-color: rgba(255, 255, 255, 0);
     border-bottom-color: #fff;
