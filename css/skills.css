@@ -32,45 +32,45 @@
     margin: 20px auto;
 }
 #Skill-HTML {
-    width: 45%;
+    width: 50%;
     animation: Animate-HTML 4s;
     -webkit-animation: Animate-HTML 4s;
     -moz-animation: Animate-HTML 4s;
     -o-animation: Animate-HTML 4s;
     height: 50px;
     position: absolute;
-    background-color: #ede574;
+    background-color:#490a3d; 
 }
 @keyframes Animate-HTML {
     from {
     width: 10px;
 }
 to {
-    width: 45%}
+    width: 50%}
 }@-webkit-keyframes Animate-HTML {
     from {
     width: 10px;
 }
 to {
-    width: 45%}
+    width: 50%}
 }@-moz-keyframes Animate-HTML {
     from {
     width: 10px;
 }
 to {
-    width: 45%}
+    width: 50%}
 }@-o-keyframes Animate-HTML {
     from {
     width: 10px;
 }
 to {
-    width: 45%}
+    width: 50%}
 }#Skill-CSS {
     animation: Animate-CSS 5s;
     -webkit-animation: Animate-CSS 5s;
     -moz-animation: Animate-CSS 5s;
     -o-animation: Animate-CSS 5s;
-    width: 40%;
+    width: 50%;
     height: 50px;
     position: absolute;
     background-color: #f9d423;
@@ -80,25 +80,25 @@ to {
     width: 10px;
 }
 to {
-    width: 40%}
+    width: 50%}
 }@-webkit-keyframes Animate-CSS {
     from {
     width: 10px;
 }
 to {
-    width: 40%}
+    width: 50%}
 }@-moz-keyframes Animate-CSS {
     from {
     width: 10px;
 }
 to {
-    width: 40%}
+    width: 50%}
 }@-o-keyframes Animate-CSS {
     from {
     width: 10px;
 }
 to {
-    width: 40%}
+    width: 50%}
 }#Skill-net {
     animation: Animate-jQuery 5s;
     -webkit-animation: Animate-jQuery 5s;
@@ -175,7 +175,7 @@ to {
     width: 50%;
     height: 50px;
     position: absolute;
-    background-color: #490a3d;
+    background-color:#e94e77; 
 }
 @keyframes Animate-XML {
     from {
@@ -243,7 +243,7 @@ to {
     width: 65%;
     height: 50px;
     position: absolute;
-    background-color: #e94e77;
+    background-color: #ede574;
 }
 @keyframes Animate-JAVA {
     from {
@@ -274,7 +274,7 @@ to {
     -webkit-animation: Animate-PHP 4s;
     -moz-animation: Animate-PHP 4s;
     -o-animation: Animate-PHP 4s;
-    width: 50%;
+    width: 55%;
     height: 50px;
     position: absolute;
     background-color: #d68189;
@@ -284,25 +284,25 @@ to {
     width: 10px;
 }
 to {
-    width: 50%}
+    width: 55%}
 }@-webkit-keyframes Animate-PHP {
     from {
     width: 10px;
 }
 to {
-    width: 50%}
+    width: 55%}
 }@-moz-keyframes Animate-PHP {
     from {
     width: 10px;
 }
 to {
-    width: 50%}
+    width: 55%}
 }@-o-keyframes Animate-PHP {
     from {
     width: 10px;
 }
 to {
-    width: 50%}
+    width: 55%}
 }#Skill-SQL {
     animation: Animate-SQL 4s;
     -webkit-animation: Animate-SQL 4s;
@@ -342,7 +342,7 @@ to {
     -webkit-animation: Animate-VBNET 4s;
     -moz-animation: Animate-VBNET 4s;
     -o-animation: Animate-VBNET 4s;
-    width: 45%;
+    width: 30%;
     height: 50px;
     position: absolute;
     background-color: #c6e5d9;
@@ -352,25 +352,25 @@ to {
     width: 10px;
 }
 to {
-    width: 45%}
+    width: 30%}
 }@-webkit-keyframes Animate-VBNET {
     from {
     width: 10px;
 }
 to {
-    width: 45%}
+    width: 30%}
 }@-moz-keyframes Animate-VBNET {
     from {
     width: 10px;
 }
 to {
-    width: 45%}
+    width: 30%}
 }@-o-keyframes Animate-VBNET {
     from {
     width: 10px;
 }
 to {
-    width: 45%}
+    width: 30%}
 }.Skill-Area {
     z-index: 1;
     float: left;
@@ -382,6 +382,7 @@ to {
     /*font-family: Lato-Regular, sans-serif;*/
     font-size: 18px;
 }
+
 .PercentText {
     z-index: 3;
     position: relative;
@@ -393,4 +394,8 @@ to {
     /*font-family: Lato-Regular, sans-serif;*/
     font-size: 18px;
 }
-
+@media (max-width: 550px) {
+    .PercentText {
+        display : none;
+    }
+}
