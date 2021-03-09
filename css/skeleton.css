@@ -122,17 +122,7 @@ html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%;
-  /*background: #fefaf6;*/
-
-  background-image:url('../images/background.jpg') ;
-  min-height: 100%;
-  position:relative;
-  opacity:0,70;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-
+  background: #fefaf6;
 }
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
