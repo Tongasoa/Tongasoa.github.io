@@ -73,7 +73,7 @@ to {
     width: 50%;
     height: 50px;
     position: absolute;
-    background-color: #f9d423;
+    background-color:#bd1550;
 }
 @keyframes Animate-CSS {
     from {
@@ -107,7 +107,7 @@ to {
     width: 70%;
     height: 50px;
     position: absolute;
-    background-color: #fc913a;
+    background-color:#f9d423;/* #fc913a;*/
 }
 @keyframes Animate-jQuery {
     from {
@@ -141,7 +141,7 @@ to {
     width: 65%;
     height: 50px;
     position: absolute;
-    background-color: #ff4e50;
+    background-color:#fc913a; 
 }
 @keyframes Animate-JS {
     from {
@@ -209,7 +209,7 @@ to {
     width: 30%;
     height: 50px;
     position: absolute;
-    background-color: #bd1550;
+    background-color: #c6e5d9;
 }
 @keyframes Animate-C {
     from {
@@ -311,7 +311,7 @@ to {
     width: 80%;
     height: 50px;
     position: absolute;
-    background-color: #c6a49a;
+    background-color:#ff4e50; 
 }
 @keyframes Animate-SQL {
     from {
@@ -345,7 +345,7 @@ to {
     width: 30%;
     height: 50px;
     position: absolute;
-    background-color: #c6e5d9;
+    background-color:#c6a49a; 
 }
 @keyframes Animate-VBNET {
     from {
